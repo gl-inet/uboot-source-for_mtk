@@ -65,7 +65,7 @@ For mt300a:
   (DDR2) DRAM Type
   (1024Mb) DDR Component
   (16bits) DDR Width
-  (RAM) Ram/Rom version
+  (ROM) Ram/Rom version
   [ ] Dual Image
   [*] Partition LAN/WAN
   (W/LLLL) LAN/WAN Board Layout
