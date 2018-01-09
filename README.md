@@ -14,8 +14,8 @@
 Entering u-boot source tree.  
 
 ```bash
-  $ sudo tar -xjvf toolchain/buildroot-gcc463_32bits.tar.bz2 -C /opt/
-  $ sudo tar -jxvf toolchain/buildroot-gcc342.tar.bz2 -C /opt/
+  $ sudo mv toolchain/buildroot-gcc342 /opt/
+  $ sudo mv toolchain/buildroot-gcc463 /opt/
 ```
 
 #####  Install LZMA Utility  
@@ -33,7 +33,6 @@ Entering u-boot source tree.
 #####  Install mksquashfs utility  
 
 ```bash
-  $ tar -xjvf squashfs4.2.tar.bz2
   $ cd squashfs4.2/squashfs-tools/
   $ make
   $ sudo cp mksquashfs /opt/buildroot-gcc463/usr/bin/mksquashfs_lzma-4.2		
