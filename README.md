@@ -15,7 +15,6 @@ Entering u-boot source tree.
 
 ```bash
   $ sudo mv toolchain/buildroot-gcc342 /opt/
-  $ sudo mv toolchain/buildroot-gcc463 /opt/
 ```
 
 #####  Install LZMA Utility  
