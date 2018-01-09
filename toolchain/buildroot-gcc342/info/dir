@@ -1,0 +1,149 @@
+-*- Text -*-
+This is the file .../info/dir, which contains the topmost node of
+the Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+  This (the Directory node) gives a menu of major topics.
+  Typing "q" exits, "?" lists all Info commands, "d" returns here,
+  "mCoreutils<Return>" visits Coreutils topic, etc.
+  Or click mouse button 2 on a menu item or cross reference to select
+  it.
+  --- PLEASE ADD DOCUMENTATION TO THIS TREE. (See INFO topic first.) ---
+
+In Debian GNU/Linux, Info `dir' entries are added with the command
+`install-info'.  Please refer to install-info(8) for usage details.
+
+* Menu: The list of major topics begins on the next line.
+
+Basics
+* Coreutils: (coreutils).		Core GNU (file, text, shell)
+					utilities.
+* Common options: (coreutils)Common options.
+					Common options.
+* File permissions: (coreutils)File permissions.
+					Access modes.
+* Date input formats: (coreutils)Date input formats.
+* Finding files: (find).		Operating on files matching certain
+					criteria.
+
+Miscellaneous:
+* Rluserman: (rluserman).		GNU Readline Library API
+
+Utilities
+* gzip: (gzip). 			The gzip command for compressing
+					files.
+
+Network Applications
+* Wget: (wget). 			The non-interactive network
+					downloader.
+
+Editors
+* nano: (nano). 			Small and friendly text editor.
+
+Development
+* gettext: (gettext).			GNU gettext utilities.
+* autopoint: (gettext)autopoint Invocation.
+					Copy gettext infrastructure.
+* envsubst: (gettext)envsubst Invocation.
+					Expand environment variables.
+* gettextize: (gettext)gettextize Invocation.
+					Prepare a package for gettext.
+* History: (history).			GNU History Library
+* msgattrib: (gettext)msgattrib Invocation.
+					Select part of a PO file.
+* msgcat: (gettext)msgcat Invocation.	Combine several PO files.
+* msgcmp: (gettext)msgcmp Invocation.	Compare a PO file and template.
+* msgcomm: (gettext)msgcomm Invocation. Match two PO files.
+* msgconv: (gettext)msgconv Invocation. Convert PO file to encoding.
+* msgen: (gettext)msgen Invocation.	Create an English PO file.
+* msgexec: (gettext)msgexec Invocation. Process a PO file.
+* msgfilter: (gettext)msgfilter Invocation.
+					Pipe a PO file through a filter.
+* msgfmt: (gettext)msgfmt Invocation.	Make MO files out of PO files.
+* msggrep: (gettext)msggrep Invocation. Select part of a PO file.
+* msginit: (gettext)msginit Invocation. Create a fresh PO file.
+* msgmerge: (gettext)msgmerge Invocation.
+					Update a PO file from template.
+* msgunfmt: (gettext)msgunfmt Invocation.
+					Uncompile MO file into PO file.
+* msguniq: (gettext)msguniq Invocation. Unify duplicates for PO file.
+* ngettext: (gettext)ngettext Invocation.
+					Translate a message with plural.
+* Readline: (readline). 		GNU Readline Library
+* xgettext: (gettext)xgettext Invocation.
+					Extract strings into a PO file.
+* ISO639: (gettext)Language Codes.	ISO 639 language codes.
+* ISO3166: (gettext)Country Codes.	ISO 3166 country codes.
+* CVS: (cvs).				Concurrent Versions System
+* CVS client/server: (cvsclient).	Describes the client/server protocol
+					used by CVS.
+* Flex: (flex). 			A fast scanner generator
+* Ipc: (ipc).				System V interprocess communication
+					facilities
+* M4: (m4).				The GNU m4 macro preprocessor.
+
+Emacs
+* Dired-X: (emacs-21/dired-x).		Dired Extra Features.
+* Emacs FAQ: (emacs-21/efaq).		Frequently Asked Questions about
+					Emacs.
+* Ispell: (ispell).			Using ISPELL, an interactive spelling
+					corrector, inside Emacs.
+
+Programming
+* Cpp: (cpp).				The GNU C preprocessor.
+* Cpplib: (cppinternals).		Cpplib internals.
+* gcc: (gcc).				The GNU Compiler Collection.
+* gcc-4.1: (gcc-4.1).			The GNU Compiler Collection.
+* gccinstall: (gccinstall).		Installing the GNU Compiler
+					Collection.
+* gccint: (gccint).			Internals of the GNU Compiler
+					Collection.
+
+Programming
+* gccint-4.1: (gccint-4.1).		Internals of the GNU Compiler
+					Collection.
+
+General Commands
+* Bzip2: (bzip2).			A program and library for data
+					compression.
+* Remsync: (remsync).			Synchronize remote files
+* Screen: (screen).			Full-screen window manager.
+* Shar utilities: (sharutils).		GNU shar utilities.
+* shar: (sharutils)shar invocation.	Make a shell archive.
+* Time: (time). 			A utility to time the execution of a
+					command
+* unshar: (sharutils)unshar invocation. Explode a shell archive.
+* Cpio: (cpio). 			A program to manage archives of files.
+* dc: (dc).				Arbitrary precision RPN "Desktop
+					Calculator".
+* Ed: (ed).				The `ed' command, which has the
+					purpose of editing text files.
+* Grep: (grep). 			Grep searches on input for lines
+					containing a match to a pattern.
+* sed: (sed).				Stream EDitor.
+* Mtools: (mtools).			Mtools: utilities to access DOS disks
+					in Unix.
+* Bfd: (bfd).				The Binary File Descriptor library.
+* Binutils: (binutils). 		The GNU binary utilities.
+* ar: (binutils)ar.			Create, modify, and extract from
+					archives
+* nm: (binutils)nm.			List symbols from object files
+* objcopy: (binutils)objcopy.		Copy and translate object files
+* objdump: (binutils)objdump.		Display information from object files
+* ranlib: (binutils)ranlib.		Generate index to archive contents
+* readelf: (binutils)readelf.		Display the contents of ELF format
+					files.
+* size: (binutils)size. 		List section sizes and total size
+* strings: (binutils)strings.		List printable strings from files
+* strip: (binutils)strip.		Discard symbols
+* c++filt: (binutils)c++filt.		Filter to demangle encoded C++ symbols
+* cxxfilt: (binutils)c++filt.		MS-DOS name for c++filt
+* addr2line: (binutils)addr2line.	Convert addresses to file and line
+* nlmconv: (binutils)nlmconv.		Converts object code into an NLM
+* windres: (binutils)windres.		Manipulate Windows resources
+* dlltool: (binutils)dlltool.		Create files needed to build and use
+					DLLs
+* As: (as).				The GNU assembler.
+* Gas: (as).				The GNU assembler.
+* Ld: (ld).				The GNU linker.

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Firmware update</title>
+		<STYLE> 
+			<!--
+				h1,
+				p,
+				form,
+				ul {
+					margin: 0;
+					padding: 0;
+				}
+
+				html,
+				body {
+					font: 13px/20px Arial, sans-serif;
+					background: #EDEDED;
+				}
+
+				#m {
+					max-width: 750px;
+					margin: 30px auto 10px;
+					border: solid 1px #BABABA;
+					background: #FFF;
+					border-radius: 7px;
+					box-shadow: 0 0 10px #D2D1D1;
+				}
+
+				#m > * {
+					padding: 20px;
+				}
+
+				h1 {
+					font: bold 50px/50px Tahoma;
+					border-bottom: solid 1px #E8E8E8;
+				}
+
+				a,
+				h1 {
+					color: #2450AD;
+					text-decoration: none;
+				}
+
+				.i {
+					margin: 20px;
+					border-radius: 7px;
+					text-align: justify;
+				}
+
+				.w {
+					background: #FEFDCE;
+					border: solid 1px #FFC643;
+				}
+
+				.e {
+					background: #FFE7E7;
+					border:solid 1px #FE7171;
+				}
+
+				#f {
+					text-align: center;
+					color: #969393;
+				}
+
+				form,
+				p,
+				h1 {
+					text-align: center;
+				}
+
+				ul {
+					list-style: square;
+					margin: 0 0 0 20px;
+				}
+
+				.red {
+					color: #E41616;
+				}
+
+				.i strong {
+					margin: 0 0 5px;
+						display: block;
+				}
+				--> 
+		</STYLE> 
+	</head>
+	<body>
+		<div id="m">
+			<h1>FIRMWARE UPDATE</h1>
+			<p>You are going to update <strong>firmware</strong> on the device.<br>Please, choose file from your local hard drive and click <strong>Update firmware</strong> button.</p>
+			<form method="post" enctype="multipart/form-data"><input type="file" name="firmware"><input type="submit" value="Update firmware"></form>
+			<div class="i w">
+				<strong>WARNINGS</strong>
+				<ul>
+					<li>do not power off the device during update</li>
+					<li>if everything goes well, the device will restart</li>
+					<li>you can upload whatever you want, so be sure that you choose proper firmware image for your device</li>
+				</ul>
+			</div>
+		</div>
+		<div id="f">You can find more information about this project on <a href="https://github.com/pepe2k/u-boot_mod" target="_blank">GitHub</a></div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+1.buildroot-gcc342.tar.bz2:
+   cross-compiler 3.4.2 binary files (32bit version)
+
+2.buildroot-gdb-src-pkt.tar.bz2:
+   cross-compiler 3.4.2 source code
+
+3.lzma-4.32.7.tar.gz/
+   lzma compress/decompress program  
+   http://tukaani.org/lzma/
+
+4. mksquash_lzma-3.0/
+   Squash filesystem with lzma compress tool for linux-2.4
+
+5. mksquash_lzma-3.2/
+   Squash filesystem with lzma compress tool for linux-2.6.21
+
+6. squashfs4.2.tar.bz2/ (please install xz-5.0.3 first)
+   Squash filesystem with lzma compress tool for linux-2.6.36
+
+7. xz-5.0.3/
+   xz compress/decompress program
+   http://tukaani.org/xz/
+
+8. buildroot-gcc463_64bits.tar.bz2
+   cross-compiler 4.6.3 binary files
+
+9. buildroot-gcc463_32bits.tar.bz2
+   cross-compiler 4.6.3 binary files
+
+10. buildroot-gcc463-src.tar.bz2
+   cross-compiler 4.6.3 source code
