@@ -42,34 +42,6 @@ Entering u-boot source tree.
 
 ### 2.1 U-boot Configuration  
 
-For mt300n-v2:  
-
-```bash
-  $ make menuconfig
-     Chip Type ---> ASIC
-     Chip ID ---> MT7628
-     DRAM Type ---> DDR2
-     DDR Component ---> 1024Mb
-     Ram/Rom version ---> ROM
-```		
-
-For mt300a:  
-
-```bash
-  (ASIC) Chip Type
-  (MT7620) Chip ID
-  (None) Port 5 Connect to
-  (None) Port 4 Connect to
-  (SPI) Flash Type
-  (DDR2) DRAM Type
-  (1024Mb) DDR Component
-  (16bits) DDR Width
-  (ROM) Ram/Rom version
-  [ ] Dual Image
-  [*] Partition LAN/WAN
-  (W/LLLL) LAN/WAN Board Layout
-```  
-
 For mt300n:  
 
 ```bash
