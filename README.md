@@ -70,6 +70,23 @@ For mt300a:
   (W/LLLL) LAN/WAN Board Layout
 ```  
 
+For mt300n:  
+
+```bash
+  (ASIC) Chip Type
+  (MT7620) Chip ID
+  (None) Port 5 Connect to
+  (None) Port 4 Connect to
+  (SPI) Flash Type
+  (DDR2) DRAM Type
+  (512Mb) DDR Component
+  (16bits) DDR Width
+  (ROM) Ram/Rom version
+  [ ] Dual Image
+  [*] Partition LAN/WAN
+  (W/LLLL) LAN/WAN Board Layout
+```  
+
 ### 2.2 build uboot  
 
 ```bash
