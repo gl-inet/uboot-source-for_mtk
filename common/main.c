@@ -401,6 +401,7 @@ void main_loop (void)
 #endif /* CONFIG_BOOTCOUNT_LIMIT */
 		s = getenv ("bootcmd");
 
+	gpio_init();
 	LED_INIT();
 	ALL_LED_STATUS(LED_OFF);
 	LED_STATUS(POWER_LED, LED_ON);

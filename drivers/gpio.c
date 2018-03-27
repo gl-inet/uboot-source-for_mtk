@@ -26,7 +26,7 @@
 
 #elif defined(MT7620_MP)
 
-#define GPIO_BTN_RESET 13
+#define GPIO_BTN_RESET 1
 
 #endif
 
