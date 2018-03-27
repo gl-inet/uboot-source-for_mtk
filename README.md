@@ -70,6 +70,10 @@ For mt300a:
   (W/LLLL) LAN/WAN Board Layout
 ```  
 
+For mt300n:  
+
+Checkout to mt300n branch and see the README.md for details.  
+
 ### 2.2 build uboot  
 
 ```bash
