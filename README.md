@@ -29,15 +29,6 @@ Entering u-boot source tree.
   $ cd ../
 ```
 
-#####  Install mksquashfs utility  
-
-```bash
-  $ cd squashfs4.2/squashfs-tools/
-  $ make
-  $ sudo cp mksquashfs /opt/buildroot-gcc463/usr/bin/mksquashfs_lzma-4.2		
-  $ cd ../../../
-```
-
 ## 2 Build  
 
 ### 2.1 U-boot Configuration  
