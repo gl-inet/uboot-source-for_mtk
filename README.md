@@ -5,9 +5,7 @@
 ```bash
   $ sudo apt-get update
   $ sudo apt-get install g++ libghc-zlib-dev liblzma-dev ncurses-dev git
-  $ sudo apt-get install libstdc++5:i386 libgtk2.0-0:i386 libpangoxft-1.0:i386
-  libpangox-1.0-0:i386 gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386
-  dos2unix
+  $ sudo apt-get install libstdc++5:i386 libgtk2.0-0:i386 libpangoxft-1.0:i386 libpangox-1.0-0:i386 gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386 dos2unix
 ```
 ### 1.2 Preparing Toolchain  
 
@@ -26,7 +24,7 @@ Entering u-boot source tree.
   $ ./configure
   $ make
   $ sudo make install
-  $ cd ../
+  $ cd ../../
 ```
 
 ## 2 Build  
